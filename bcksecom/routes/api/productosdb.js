@@ -68,6 +68,7 @@ router.get('/sku/:skuid', async(req, res)=>{
   }
 });// get sku/:skuid
 
+
 router.get('/stock/:stock', async (req, res) => {
   try {
     let { stock } = req.params;
