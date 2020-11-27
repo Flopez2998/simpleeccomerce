@@ -53,7 +53,7 @@ class ProductsModel{
     }
   }
 
-    async addOne( document ) {
+    async addOne(document) {
       try{
         var result = await this.collection.insertOne(document);
         return result;
